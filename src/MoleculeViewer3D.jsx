@@ -1,0 +1,1 @@
+// Placeholder for MoleculeViewer3D.jsx

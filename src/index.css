@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Fira Code', monospace;
+  background-color: #000;
+  color: #0ff;
+  overflow: hidden;
+}
+
+button {
+  @apply px-3 py-1 rounded-md transition-all duration-200 bg-gradient-to-r from-plasma to-quantum shadow-md;
+}
+button:hover {
+  @apply brightness-125 scale-105;
+}
+h1, h2, h3 {
+  @apply font-bold text-forge;
+}
+ul li::before {
+  content: '✦';
+  margin-right: 0.5rem;
+  color: #ff0;
+}
